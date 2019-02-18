@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Fader
+  - Companion
+  - s_witness
+  - ef_witness
+  - Player_HitBox
+  - Enemy_HitBox
+  - ShowOnPause
+  - gameOver
+  - attackCollider
+  - playerAttackCollider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: terrain
+    uniqueID: 2368124681
+    locked: 0
+  - name: items
+    uniqueID: 2929778195
+    locked: 0
+  - name: player
+    uniqueID: 1209692353
+    locked: 0
+  - name: world
+    uniqueID: 1185610761
+    locked: 0
+  - name: ui
+    uniqueID: 506796841
+    locked: 0

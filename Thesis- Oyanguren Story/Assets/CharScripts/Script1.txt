@@ -1,0 +1,3 @@
+Pepe; Good Morning Maria are the preparations ready?; 0
+Maria; Yes sir, the preparations are ready plas use the machine to start your journey.; 1
+choice

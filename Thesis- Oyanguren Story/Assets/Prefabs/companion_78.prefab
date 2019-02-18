@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1451239235990372}
+  m_IsPrefabAsset: 1
+--- !u!1 &1410025429495434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4247882512865772}
+  - component: {fileID: 61666257811362076}
+  - component: {fileID: 114371916268707300}
+  - component: {fileID: 114719513478503726}
+  m_Layer: 0
+  m_Name: dialogueZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1451239235990372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4543501241708660}
+  - component: {fileID: 212163571748052996}
+  - component: {fileID: 50878227701625334}
+  - component: {fileID: 95297316139705400}
+  - component: {fileID: 114514134050087480}
+  - component: {fileID: 61642177424552420}
+  m_Layer: 0
+  m_Name: companion_78
+  m_TagString: Companion
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4247882512865772
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410025429495434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4543501241708660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4543501241708660
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451239235990372}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3080, y: -277.5, z: 35.12402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4247882512865772}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50878227701625334
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451239235990372}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 452.38934
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!61 &61642177424552420
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451239235990372}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -15.064148}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 22, y: 49}
+    newSize: {x: 30, y: 48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 22, y: 18.871704}
+  m_EdgeRadius: 0
+--- !u!61 &61666257811362076
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410025429495434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.9135437}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 42.975586, y: 79.785706}
+  m_EdgeRadius: 0
+--- !u!95 &95297316139705400
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451239235990372}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9de894fef9f8fd4ea1c142d6fd30d55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114371916268707300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410025429495434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ed5e71ad73efe469ea8dbb19044819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggeractive: 0
+--- !u!114 &114514134050087480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451239235990372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b622fa8388ad2b45a6f83bb12e66975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 70
+  anim: {fileID: 0}
+  myRigidbody: {fileID: 0}
+  isWalking: 0
+  walkTime: 5
+  waitTime: 1
+  canMove: 0
+  target: {fileID: 0}
+  hasWalkZone: 0
+  walkZone: {fileID: 0}
+  incutscene: 0
+  moveDirection: {x: 0, y: 0, z: 0}
+--- !u!114 &114719513478503726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410025429495434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e74898d1498d46478bbfe2ef81e1121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dMan: {fileID: 0}
+  lines:
+  - I got the silk. We're on our way to profit.
+  - That's good news. But really, you shouldn't be too reckless.
+  - I can't help it I guess. An adventurer's blood flows through these veins.
+  - Still, you be careful. Anyway, I too have news for you.
+  - You've mentioned to me before, how you've studied law.
+  - Well, word is a law school just opened in Manila, figured you'd be interested.
+  - Hmmmm..
+  - So, what do you think?
+  charac:
+  - Jose
+  - Companion
+  - Jose
+  - Companion
+  - Companion
+  - Companion
+  - Jose
+  - Companion
+  img:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  images:
+  - {fileID: 21300000, guid: 5ce413214854e4e4dbe9d506b72dab1a, type: 3}
+  - {fileID: 21300000, guid: c8319bfea950413498e28173f2fc6a41, type: 3}
+  qmp: {fileID: 0}
+  btn1: {fileID: 0}
+  btn2: {fileID: 0}
+  btn3: {fileID: 0}
+  btntext: {fileID: 0}
+  btntext2: {fileID: 0}
+  btntext3: {fileID: 0}
+  btext: We sail to Manila.
+  btext2: Let me settle some matters first.
+  btext3: I wish to remain as a trader.
+  lines2:
+  - Jose, there's a storm up ahead.. I advise we drop the anchor and dock.
+  - Jose, there's a storm up ahead.. I advise we drop the anchor and dock.
+  - Yes, I agree. Let's go to the nearest island. We'll wait the storm out there.
+  - Might as well resupply and find more men while we're at it.
+  - All right.
+  charac2:
+  - Companion
+  - Companion
+  - Jose
+  - Jose
+  - Companion
+  img2:
+  - 1
+  - 1
+  - 0
+  - 0
+  - 1
+  images2:
+  - {fileID: 21300000, guid: 01b67ee12707d7540bd9a4332fdee09b, type: 3}
+  - {fileID: 21300000, guid: c8319bfea950413498e28173f2fc6a41, type: 3}
+  cgman: {fileID: 0}
+  cglines:
+  - And thus Oyanguren spent the rest of his life as a trader..
+  - In his successful life, he became one of the wealthiest in his time.
+  cgimg:
+  - 0
+  - 0
+  cgimages:
+  - {fileID: 21300000, guid: fe2c7a41a939e6649b44c6bd5ab35ec7, type: 3}
+  cglines2:
+  - In 1835, the University of Santo Tomas opened its Law Department.
+  - With that, Oyanguren sailed for Manila to complete the degree he began at the
+    Colegio Real Universidad de Bergara in Spain.
+  - In August 5,1837 he obtaind his Bachiller en Leyes.
+  - He then held a position of judge in Tondo, Manila from 1839 to 1844, before eventually
+    being relieved to give way to a Madrid appointee.
+  - Thus, he pursued his business ventures in Caraga, and it was there when he met
+    his lover, Maria Luisa Azaola.
+  - She was a Spanish lady whose family had a plantantion.
+  - She also had a brother, Antonio, who traded around the Gulf of Davao.
+  - Antonio was part of the San Rufo incident in 1844.
+  - The ship San Rufo was anchored of the coast of Malipano on Samal Island. Her captian
+    had presented a letter of introduction to the Moros there.
+  - The letter, from Datu Iskandar Quadratullah, Sultan of Maguindanao asked the Moros
+    to receive the traders in peace.
+  - However, the Moros under the guise of trade killed everyone aside from two servants.
+    These two would later escape to tell the story of the treachery.
+  - The incident caused an outrage in Manila.. Thus, looking for answers, the Spaniards
+    confronted Datu Quadratullah, but he disclabied all responsibility.
+  - The Datu disowned the Moros who disobeyed his orders, and left Spain to deal with
+    them. The Spaniards had now fredom of action against the Moros in the gulf of
+    Davao.
+  - It did not take long for Don Jose to organize an expedition. He approached businessmen
+    to finance the project and presented his proposal to Governor General Claveria.
+  - Soon enough, Claveria granted Don Jose's mission on February 27, 1847. His mission,
+    to conquer and subdue all Moros in the entire gulf area.
+  - Don Jose was provided with soliders, artillery, firearms and three gunships.
+  - Attracted by the promise of new territory, many adventuresome natives from different
+    areas in the Philippines also supplemented the crew.
+  - The expedition set sail for Mindanao on April 1848.
+  - ' '
+  cgimg2:
+  - 6
+  - 6
+  - 0
+  - 0
+  - 1
+  - 1
+  - 2
+  - 2
+  - 3
+  - 3
+  - 4
+  - 4
+  - 6
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 6
+  cgimages2:
+  - {fileID: 21300000, guid: 15f7e990755d1394d8b587a24d0bf7f8, type: 3}
+  - {fileID: 21300000, guid: 1d1d105d478cf634098c0a929ff04471, type: 3}
+  - {fileID: 21300000, guid: 387f2ab50c8f92d45b28f8855d524c82, type: 3}
+  - {fileID: 21300000, guid: 51d4727aee46f9640911ea78926369c9, type: 3}
+  - {fileID: 21300000, guid: 5f563cfa5a047c646a21d4a3060dac87, type: 3}
+  - {fileID: 21300000, guid: 1a1858d8869552846967beccb4ae3fde, type: 3}
+  - {fileID: 21300000, guid: fe2c7a41a939e6649b44c6bd5ab35ec7, type: 3}
+--- !u!212 &212163571748052996
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451239235990372}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1209692353
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300174, guid: f6b944f3a6fbacf489f17b49b88918a2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 30, y: 48}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

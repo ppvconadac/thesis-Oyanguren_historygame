@@ -1,0 +1,3 @@
+Assets were sourced from OGA, freesound and LPC spritesheet generator.
+
+Ingame art (character portraits and CG's) were created by 0FruitCake, thesis partner. (https://github.com/0FruitCake)
